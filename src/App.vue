@@ -16,6 +16,7 @@
 
     <!-- Ranking -->
     <!-- DOEN JULLIE ALS TAAK -->
+    <!-- test-->
     <Rankingpage
       v-if="page == 'ranking'"
 
