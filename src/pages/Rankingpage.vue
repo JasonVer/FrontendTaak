@@ -107,7 +107,7 @@ export default {
         });
     },
 
-    fetchVotes(songs) {
+    /*fetchVotes(songs) {
       // Get all artist
       const url = "http://webservies.be/eurosong/Votes";
 
@@ -133,7 +133,7 @@ export default {
           // change data of songs, so everything will get rerenderd;
           this.songs = songs;
         });
-    },
+    },*/
   },
 };
 </script>
