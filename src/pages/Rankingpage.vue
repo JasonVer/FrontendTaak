@@ -3,7 +3,7 @@
     <button @click="goToPage('home')">Go to home</button>
     <h1>Ranking</h1>
     <div v-for="song in songs" :key="song.id">
-      {{ song.title }} - {{ song.artist.name }}- {{ count }}
+      {{ song.title }} - {{ song.artist.name }} - {{ count }}
       <div v-for="vote in votes" :key="vote.id">
         <div v-if="vote.songID == song.id">
         </div>
