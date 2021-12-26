@@ -25,7 +25,7 @@
     </tr>
     <tr v-for="(song,i) in songs" :key="i">
     <td>{{i+1}}</td>
-    <td>{{song.artist.name}}</td>
+    <td>{{song.artist}}</td>
     <td>{{song.title}}</td>  
     <td>{{song.allPoints}}</td>
     </tr>
